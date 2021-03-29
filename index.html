@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Проект_1</title>
+    <link rel="preload" href="fonts/SFProDisplay-Regular.woff2" as="font" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+      <symbol viewBox="0 0 66 17" id="logo_benton">
+        <path
+          d="M6.3584 16C9.65625 16 11.6113 14.3779 11.6113 11.6494C11.6113 9.58691 10.2578 8.10449 8.15234 7.83594V7.75C9.64551 7.48145 10.8271 5.97754 10.8271 4.36621C10.8271 2.0459 9.0332 0.499023 6.37988 0.499023H0.503906V16H6.3584ZM2.4375 2.20703H5.93945C7.81934 2.20703 8.87207 3.05566 8.87207 4.5918C8.87207 6.26758 7.62598 7.18066 5.33789 7.18066H2.4375V2.20703ZM2.4375 14.292V8.8457H5.88574C8.35645 8.8457 9.62402 9.75879 9.62402 11.5527C9.62402 13.3467 8.39941 14.292 6.06836 14.292H2.4375ZM21.3648 12.7988C21.0533 13.8516 20.0113 14.5713 18.5933 14.5713C16.5845 14.5713 15.3277 13.1641 15.3277 11.0264V10.9189H23.3414V10.21C23.3414 6.82617 21.483 4.63477 18.4644 4.63477C15.3814 4.63477 13.4048 6.9873 13.4048 10.457C13.4048 13.9697 15.3492 16.1934 18.5504 16.1934C20.9888 16.1934 22.8795 14.7539 23.2017 12.7988H21.3648ZM18.4322 6.25684C20.1939 6.25684 21.3648 7.58887 21.4078 9.45801H15.3384C15.4566 7.59961 16.6812 6.25684 18.4322 6.25684ZM25.672 16H27.5411V9.42578C27.5411 7.53516 28.6905 6.28906 30.4523 6.28906C32.171 6.28906 33.0196 7.27734 33.0196 9.08203V16H34.8888V8.74902C34.8888 6.21387 33.4708 4.63477 31.0216 4.63477C29.2921 4.63477 28.0997 5.4082 27.4767 6.61133H27.4337V4.82812H25.672V16ZM38.3151 2.13184V4.82812H36.6501V6.36426H38.3151V13.0996C38.3151 15.248 39.11 16.0859 41.1618 16.0859C41.6022 16.0859 42.1179 16.0537 42.3434 16V14.4316C42.2145 14.4531 41.7848 14.4854 41.57 14.4854C40.6139 14.4854 40.1843 14.0234 40.1843 13.0029V6.36426H42.3542V4.82812H40.1843V2.13184H38.3151ZM49.0998 16.1934C52.1828 16.1934 54.2668 13.9697 54.2668 10.4141C54.2668 6.84766 52.1828 4.63477 49.0998 4.63477C46.0061 4.63477 43.9221 6.84766 43.9221 10.4141C43.9221 13.9697 46.0061 16.1934 49.0998 16.1934ZM49.0998 14.5498C47.1233 14.5498 45.8235 13.0459 45.8235 10.4141C45.8235 7.78223 47.1233 6.27832 49.0998 6.27832C51.0764 6.27832 52.3655 7.78223 52.3655 10.4141C52.3655 13.0459 51.0764 14.5498 49.0998 14.5498ZM56.5975 16H58.4666V9.42578C58.4666 7.53516 59.616 6.28906 61.3777 6.28906C63.0965 6.28906 63.9451 7.27734 63.9451 9.08203V16H65.8143V8.74902C65.8143 6.21387 64.3963 4.63477 61.9471 4.63477C60.2176 4.63477 59.0252 5.4082 58.4021 6.61133H58.3592V4.82812H56.5975V16Z"
+        />
+      </symbol>
+    </svg>
+    <header class="inner">
+      <a href="#">
+        <svg class="logo" width="66" height="17">
+          <use xlink:href="#logo_benton"></use>
+        </svg>
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">О проекте</a></li>
+          <li><a href="#">Предложения</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <p><a href="tel:+74957770493">+7 (495) 777 04 93</a></p>
+    </header>
+
+    <main>
+      <div class="title">
+        <h1>Тихий дом в&nbsp;самом центре Москвы</h1>
+      </div>
+      <div class="about inner">
+        <h2>Добро пожаловать <br />в клубный Дом Benton</h2>
+        <div class="about-text">
+          <p>
+            Геометричные элементы парадного фасада, приковывающие к себе
+            внимание, светлые и просторные помещения с пятиметровыми потолками,
+            сразу отсылают к эстетике американского классического ар-деко.
+          </p>
+          <p>
+            Его влияние быстро охватило Америку начала 19 века, формировало
+            образ жизни того периода, который характеризуется бурным
+            экономическим ростом, развитием технологий, машиностроения и
+            строительства культовых известнейших арх-&nbsp;сооружений, а также
+            развитием киноискусства.
+          </p>
+        </div>
+      </div>
+      <div class="address inner">
+        <div class="address-title">
+          <h2>ЦАО Пресненский район</h2>
+          <span>ул. Климашкина, 16</span>
+        </div>
+        <p>
+          Москва-Сити, Центр международной торговли, известные театры, музеи,
+          лучшие рестораны — центр Москвы — центр притяжения успеха, вдохновения
+          и силы.
+        </p>
+      </div>
+      <picture>
+        <source
+          type="image/webp"
+          media="(min-width: 1440px)"
+          srcset="image/map_desktop.webp 1x, image/map_desktop@2.webp 2x"
+        />
+        <source
+          type="image/webp"
+          media="(min-width: 1000px)"
+          srcset="image/map_middle.webp 1x, image/map_middle@2.webp 2x"
+        />
+        <source
+          type="image/webp"
+          media="(min-width: 640px)"
+          srcset="image/map_tablet.webp 1x, image/map_tablet@2.webp 2x"
+        />
+        <source
+          type="image/webp"
+          srcset="image/map_mobile.webp 1x, image/map_mobile@2.webp 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="image/map_desktop.png 1x, image/map_desktop@2x.png 2x"
+        />
+        <source
+          media="(min-width: 1000px)"
+          srcset="image/map_middle.png 1x, image/map_middle@2x.png 2x"
+        />
+        <source
+          media="(min-width: 640px)"
+          srcset="image/map_tablet.png 1x, image/map_tablet@2x.png 2x"
+        />
+        <img
+          class="map-image"
+          src="image/map_mobile.png"
+          srcset="image/map_mobile@2x.png 2x"
+          alt="Карта с расположением дома 'Benton'"
+        />
+      </picture>
+      <div class="advantages">
+        <div class="advantages-block inner">
+          <h2>Преимущества</h2>
+          <div class="advantages-list">
+            <ul>
+              <li>Уникальная архитектура</li>
+              <li>Фитнес зона</li>
+              <li>Пентхаусы: 5м высота потолка</li>
+              <li>Просторные террасы</li>
+            </ul>
+            <ul>
+              <li>Детская зона</li>
+              <li>Собственный ритейл</li>
+              <li>Видовые характеристики</li>
+              <li>Приватность</li>
+            </ul>
+          </div>
+        </div>
+        <div class="style inner">
+          <h2>Стиль</h2>
+          <p>
+            <span>
+              Главный фасад здания исполнен в неоклассическом стиле с
+              выступающими деталями и большим количество окон.
+            </span>
+            Это&nbsp;четко очерченная композиция из полированного гранита с
+            элементами рустики, крупноформатного керамогранита
+            и&nbsp;декоративными элементами, выполненными на заказ.
+          </p>
+          <p>
+            <span>
+              В основе интерьеров Дома Benton приоритетными являются эстетика,
+              где видимая роскошь сочетается с комфортом,
+            </span>
+            <span> в неё идеально вписываются любые технические приборы </span>
+            и устройства. Это позволяет создавать действительно актуальные и
+            модные решения в рамках устоявшейся классики
+          </p>
+        </div>
+      </div>
+      <picture>
+        <source
+          type="image/webp"
+          media="(min-width: 1440px)"
+          srcset="
+            image/image_style_desktop.webp        1x,
+            image/image_style_desktop.webp@2.webp 2x
+          "
+        />
+        <source
+          type="image/webp"
+          media="(min-width: 1000px)"
+          srcset="
+            image/image_style_middle.webp        1x,
+            image/image_style_middle.webp@2.webp 2x
+          "
+        />
+        <source
+          type="image/webp"
+          media="(min-width: 640px)"
+          srcset="
+            image/image_style_tablet.webp        1x,
+            image/image_style_tablet.webp@2.webp 2x
+          "
+        />
+        <source
+          type="image/webp"
+          srcset="image/image_style.webp 1x, image/image_style@2.webp 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            image/image_style_desktop.jpg    1x,
+            image/image_style_desktop@2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 1000px)"
+          srcset="image/style_middle.jpg 1x, image/style_middle@2x.jpg 2x"
+        />
+        <source
+          media="(min-width: 640px)"
+          srcset="
+            image/image_style_tablet.jpg    1x,
+            image/image_style_tablet@2x.jpg 2x
+          "
+        />
+        <img
+          class="advantages-image"
+          src="image/image_style.jpg"
+          srcset="image/image_style@2x.jpg 2x"
+          alt="Фото терассы с пожелтевшими деревьями"
+          width="320"
+          height="400"
+        />
+      </picture>
+      <div class="offer inner">
+        <h2>Предложения</h2>
+        <p>Клубный Дом Manhattan — это семь этажей и всего 90 апартаментов.</p>
+        <div class="offer-apartments">
+          <h3>Апартаменты</h3>
+          <picture class="offer-image">
+            <source
+              type="image/webp"
+              media="(min-width: 1440px)"
+              srcset="
+                image/image_apartments_desktop.webp        1x,
+                image/image_apartments_desktop.webp@2.webp 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(min-width: 1000px)"
+              srcset="
+                image/image_apartments_middle.webp        1x,
+                image/image_apartments_middle.webp@2.webp 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(min-width: 640px)"
+              srcset="
+                image/image_apartments_tablet.webp        1x,
+                image/image_apartments_tablet.webp@2.webp 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                image/image_apartments.webp        1x,
+                image/image_apartments.webp@2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                image/image_apartments_desktop.jpg    1x,
+                image/image_apartments_desktop@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1000px)"
+              srcset="
+                image/image_apartments_middle.jpg    1x,
+                image/image_apartments_middle@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 640px)"
+              srcset="
+                image/image_apartments_tablet.jpg    1x,
+                image/image_apartments_tablet@2x.jpg 2x
+              "
+            />
+            <img
+              src="image/image_apartments.jpg"
+              srcset="image/image_apartments@2x.jpg 2x"
+              alt="Фото уютной спальни"
+            />
+          </picture>
+          <p>
+            Со второго по шестой этаж гармонично спланированы апартаменты
+            различной площади от 35 до 80 м2, жителям каждого из которых
+            гарантирована максимальная приватность и комфорт.
+          </p>
+          <button>Оставить заявку</button>
+        </div>
+        <div class="offer-panthouse">
+          <h3>Пентхаусы</h3>
+          <picture class="offer-image">
+            <source
+              type="image/webp"
+              media="(min-width: 1440px)"
+              srcset="
+                image/image_pantyhose_desktop.webp        1x,
+                image/image_pantyhose_desktop.webp@2.webp 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(min-width: 1000px)"
+              srcset="
+                image/image_pantyhose_middle.webp        1x,
+                image/image_pantyhose_middle.webp@2.webp 2x
+              "
+            />
+            <source
+              type="image/webp"
+              media="(min-width: 640px)"
+              srcset="
+                image/image_pantyhose_tablet.webp        1x,
+                image/image_pantyhose_tablet.webp@2.webp 2x
+              "
+            />
+            <source
+              type="image/webp"
+              srcset="
+                image/image_pantyhose.webp        1x,
+                image/image_pantyhose.webp@2.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                image/image_pantyhose_desktop.jpg    1x,
+                image/image_pantyhose_desktop@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1000px)"
+              srcset="
+                image/image_pantyhose_middle.jpg    1x,
+                image/image_pantyhose_middle@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 640px)"
+              srcset="
+                image/image_pantyhose_tablet.jpg    1x,
+                image/image_pantyhose_tablet@2x.jpg 2x
+              "
+            />
+            <img
+              src="image/image_pantyhose.jpg"
+              srcset="image/image_pantyhose@2x.jpg 2x"
+              alt="Фото с красивым видом из  окна уютрой комнаты"
+            />
+          </picture>
+          <p>
+            На седьмом этаже Дома предусмотрено несколько пентхаусов. В
+            распоряжении их жителей: высокие полотки 5,5 метров, свободная
+            планировка для создания стильного, торжественного интерьера.
+          </p>
+          <button>Оставить заявку</button>
+        </div>
+      </div>
+
+      <div class="comfort">
+        <picture>
+          <source
+            type="image/webp"
+            media="(min-width: 1440px)"
+            srcset="
+              image/image_comfort_desktop.webp        1x,
+              image/image_comfort_desktop.webp@2.webp 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(min-width: 1000px)"
+            srcset="
+              image/image_comfort_middle.webp        1x,
+              image/image_comfort_middle.webp@2.webp 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(min-width: 640px)"
+            srcset="
+              image/image_comfort_tablet.webp        1x,
+              image/image_comfort_tablet.webp@2.webp 2x
+            "
+          />
+          <source
+            type="image/webp"
+            srcset="
+              image/image_comfort.webp        1x,
+              image/image_comfort.webp@2.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              image/image_comfort_desktop.jpg    1x,
+              image/image_comfort_desktop@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1000px)"
+            srcset="
+              image/image_comfort_middle.jpg    1x,
+              image/image_comfort_middle@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 640px)"
+            srcset="
+              image/image_comfort_tablet.jpg    1x,
+              image/image_comfort_tablet@2x.jpg 2x
+            "
+          />
+          <img
+            class="comfort-first-image"
+            src="image/image_comfort.jpg"
+            srcset="image/image_comfort@2x.jpg 2x"
+            alt="Фото уютного дивана в комнате с зелеными стенами"
+          />
+        </picture>
+        <div class="comfort-fisrt">
+          <h2>Зона комфорта</h2>
+          <ul>
+            <li>
+              <p>
+                Уровень комфорта зачастую определяет уровень жизни. Поэтому, мы
+                продумали каждую деталь.
+              </p>
+            </li>
+            <li>
+              <p>
+                Путешествие в мир безупречного вкуса, начинается с лобби: стены
+                украшает покрытие из натурального камня, зеркальные декоративные
+                панно, выполненные по авторскому дизайну.
+              </p>
+            </li>
+            <li>
+              <p>
+                В Доме предусмотрена собственная фитнес зона, на первом этаже, к
+                услугам жителей и их гостей: кафе и продуктовый магазин, аптека,
+                химчистка, салон красоты и медицинский центр.
+              </p>
+            </li>
+            <li>
+              <p>
+                В северной части дома, для маленьких жителей, удачно
+                расположилась оборудованная площадка для развлечений.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="comfort-second">
+          <ul>
+            <li>
+              <p>
+                <span class="comfort-span">
+                  Истинная роскошь должна быть элегантной, уютной, самобытной.
+                  Открытая эко-терраса в восточной,</span
+                >
+                тихой и защищенной от городского шума
+                <span class="comfort-span">
+                  части дома, для тех, кто летом</span
+                >
+                предпочитает выпить чашечку кофе на рассвете под первыми лучами
+                солнца,
+                <span class="comfort-span">
+                  или тех, кто к полудню решит понежиться&nbsp;на
+                  солнышке.</span
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="comfort-span">
+                  Ваш вечер пролетит незаметно за уютными разговорами на
+                  свежем</span
+                >
+                воздухе, а зимой терраса превратится в собственный каток для
+                жителей и их гостей.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <picture>
+          <source
+            type="image/webp"
+            media="(min-width: 1440px)"
+            srcset="
+              image/image_comfort2_desktop.webp        1x,
+              image/image_comfort2_desktop.webp@2.webp 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(min-width: 1000px)"
+            srcset="
+              image/image_comfort2_middle.webp        1x,
+              image/image_comfort2_middle.webp@2.webp 2x
+            "
+          />
+          <source
+            type="image/webp"
+            media="(min-width: 640px)"
+            srcset="
+              image/image_comfort2_tablet.webp        1x,
+              image/image_comfort2_tablet.webp@2.webp 2x
+            "
+          />
+          <source
+            type="image/webp"
+            srcset="
+              image/image_comfort2.webp        1x,
+              image/image_comfort2.webp@2.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              image/image_comfort2_desktop.jpg    1x,
+              image/image_comfort2_desktop@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1000px)"
+            srcset="
+              image/image_comfort2_middle.jpg    1x,
+              image/image_comfort2_middle@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 640px)"
+            srcset="
+              image/image_comfort2_tablet.jpg    1x,
+              image/image_comfort2_tablet@2x.jpg 2x
+            "
+          />
+          <img
+            class="comfotr-second-image"
+            src="image/image_comfort2.jpg"
+            srcset="image/image_comfort2@2x.jpg 2x"
+            width="300"
+            height="380"
+            alt="Фото зеленого уголка"
+          />
+        </picture>
+      </div>
+      <div class="description inner">
+        <h2>Технические характеристики</h2>
+        <ul>
+          <li>
+            <h3>СЕРВИС</h3>
+            <p>Две зоны ресепшн 24/7</p>
+          </li>
+          <li>
+            <h3>ПАРКИНГ</h3>
+            <p>Наземный, охраняемый паркинг</p>
+          </li>
+          <li>
+            <h3>СИСТЕМА БЕЗОПАСНОСТИ</h3>
+            <p>
+              Видеонаблюдение, охранная сигнализация по периметру дома,
+              современная система контроля доступа
+            </p>
+          </li>
+          <li>
+            <h3>ЛИФТЫ</h3>
+            <p>Бесшумные премиальные лифты OTIS</p>
+          </li>
+          <li>
+            <h3>ОКНА</h3>
+            <p>
+              Высококачественные стеклопакеты с повышенным уровнем шумоизоляции
+            </p>
+          </li>
+          <li>
+            <h3>ПОЖАРНАЯ СИГНАЛИЗАЦИЯ</h3>
+            <p>Автоматическая система пожаротушения в каждом апартаменте</p>
+          </li>
+          <li>
+            <h3>КОНДИЦИОНИРОВАНИЕ</h3>
+            <p>Центральная Системы кондиционирования</p>
+          </li>
+          <li>
+            <h3>ВЕНТИЛЯЦИЯ</h3>
+            <p>Система принудительной приточно-&nbsp;вытяжной вентиляции</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer inner">
+        <div class="user">
+          <h2>Записаться на&nbsp;экскурсию</h2>
+          <form class="user-form" action="#" method="post">
+            <label for="inputname"></label>
+            <input
+              class="user-name"
+              name="username"
+              autocomplete="off"
+              type="text"
+              id="inputname"
+              placeholder="Имя"
+            />
+            <span class="error"></span>
+            <label for="inputphone"></label>
+            <input
+              class="user-phone"
+              name="userphone"
+              autocomplete="off"
+              type="tel"
+              id="inputphone"
+              placeholder="Телефон"
+            />
+            <span class="error"></span>
+            <button type="submit" class="user-button">Записаться</button>
+          </form>
+          <p>
+            Нажимая кнопку “Записаться” я принимаю условия<br />
+            <span>Политики конфиденциальности</span>
+          </p>
+        </div>
+        <div class="info">
+          <a href="#">
+            <svg class="footer-logo" width="93" height="39">
+              <use xlink:href="#logo_benton"></use>
+            </svg>
+          </a>
+          <nav>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-link" href="#">О проекте</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#">Преимущества</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#">Предложения</a>
+              </li>
+            </ul>
+          </nav>
+          <p>
+            <a class="footer-phone" href="tel:+74957770493">
+              +7 (495) 777 04 93
+            </a>
+          </p>
+          <p class="footer-address">
+            Москва, Пресненский район, ул. Климашкина, 16
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup">
+      <h2>Спасибо за заявку!</h2>
+      <p>Наш менеджер свяжется с вами в ближайшее время</p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
